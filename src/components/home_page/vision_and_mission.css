@@ -1,0 +1,69 @@
+#Intro-container{
+    margin-top:6rem;
+    margin-bottom:6rem;
+}
+#vision-section,#mission-section{
+    padding:1.5rem,0,0,0;
+    height:28rem;
+}
+#our-vision-content, #our-mission-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:6.25rem;
+}
+#vision-img img,#mission-img img{
+    max-height:25rem;
+    width:auto;
+    object-fit: contain;
+    padding:0 0 0 6rem ;
+}
+#mission-section{
+    padding:1.5rem;
+    display:flex;
+}
+
+
+#our-vision-title,#our-mission-title{
+    font-family:"Unbounded";
+    text-align:left;
+    font-weight:400;
+    font-size:48px;
+    line-height:100%;
+    letter-spacing:0%;
+}
+#our-vision-text,#our-mission-text{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align:left;
+    width:31.5625rem;
+}
+@media screen and (max-width: 1024px){
+    #vision-section{
+        padding:0;
+    }
+    #vision-img,#our-vision-title,#our-vision-content,
+    #mission-img,#our-mission-title,#our-mission-content{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    #vision-section,#mission-section{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:auto;
+    }
+    #mission-section{
+        flex-direction:column-reverse;
+    }
+    #mission-section img{
+        display:flex;
+        padding:0;
+    }
+    #our-vision-content, #our-mission-content{
+        padding:0;
+    }
+}

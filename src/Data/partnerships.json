@@ -1,0 +1,22 @@
+[
+    {
+        "id":0,
+        "image":"IYNS_logo_international.png",
+        "title":"International Youth Nuclear Congress"
+    },
+    {
+        "id":1,
+        "image":"FNS_logo.png",
+        "title":"French Nuclear Society"
+    },
+    {
+        "id":2,
+        "image":"ENS_logo.png",
+        "title":"European Nuclear Society"
+    },
+    {
+        "id":3,
+        "image":"IndianNS_logo.png",
+        "title":"European Nuclear Society"
+    }
+]

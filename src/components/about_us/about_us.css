@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+#about-us-page{
+    margin: 4rem 0 0 6.25rem;
+}
+#about-us-hero-section{
+    margin-bottom: 5rem;
+}
+#about-us-title{
+    background-image: linear-gradient(180deg, #5A2D7C 0%, #008C95 100%);
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 3.75rem;
+    leading-trim: NONE;
+    line-height: 96%;
+    letter-spacing: 0%;
+    margin: 0 0 5rem 0;
+}
+#vertical-line{
+      border-left: 2px solid #333842;
+      height: 8.5625rem;
+}
+#about-us-hero-text{
+    width:25rem;
+    height:28.125rem;
+    padding:0;
+}
+
+#line-plus-circle{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:.833rem;
+    margin: 0 0 1rem 0;
+}
+#outer-circle{
+    height:.833rem;
+    width:.833rem;
+    border-radius:50%;
+    border:1px solid #333842;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#inner-circle{
+    height:.4rem;
+    width:.4rem;
+    border-radius:50%;
+    background-color: #333842;
+}
+#about-us-hero-image{
+    width:51.25rem;
+    height:28.125rem;
+}
+#about-us-image{
+    background-color: #EDEDED;
+    width:51.25rem;
+    height:28.125rem;
+}
+#executive-board{
+    margin:0 0 5rem 0;
+}
+#executive-board-title{
+    font-family: Unbounded;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+#executive-board-text{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width:38.125rem;
+    height:6rem;
+}
+.team-info{
+    margin:5rem 0 5rem 0;
+    display:flex;
+}
+.member-designation{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.25rem;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.member-name{
+    background-image: linear-gradient(180deg, #5A2D7C 0%, #008C95 100%);
+    background-clip:text;
+    color:transparent;
+    font-family: Unbounded;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 3.75rem;
+    leading-trim: NONE;
+    line-height: 96%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    padding:0 0 2rem 2rem;
+}
+.member-description{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width:31.5625rem;
+    height:19rem;
+}
+#team-member-img{
+    background-color: #27628A;
+    width:38.125rem;
+    height:25rem;
+}
+#declaration-section .col{
+    margin: 0 0 5rem 0;
+}
+#declarations{
+    font-family: Unbounded;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 0 0 2.5rem 0;
+}
+#team-img{
+    margin: 0 0 .6rem 0;
+}
+#partnership-img{
+    margin: .6rem 0 0 0;
+}
+#cooperation-and-collaboration{
+    margin:0 0 5rem 0;
+}
+#cooperation-title{
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin:2.5rem 0 0 0;
+}
+#cooperation-text{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin:2.5rem 0 2.5rem 0;
+}
+
+#declaration-images{
+     display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+/* Images - responsive and full-width within their column */
+#declarations-img,
+#team-img,
+#partnership-img {
+  width: 100%;
+  height: auto;
+  min-width: 320px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    #about-us-page{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        text-align:center;
+        margin:0;
+        padding:0;
+    }
+    #about-us-title{
+        text-align:center;
+    }
+    #about-us-hero-section{
+        display:flex;
+        flex-direction:column-reverse;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        height:auto;
+        max-width:80%;
+    }
+    #line-plus-circle{
+        display:none;
+    }
+    #about-us-hero-text{
+        max-width:80%;
+        height:auto;
+        padding:0;
+        margin:3rem 0 0 0;
+    }
+    #executive-board-section{
+        display:flex;
+        align-items:center;
+        flex-direction:column;
+        justify-content:center;
+        text-align:center;
+    }
+
+  
+  #about-us-title,
+  .member-name {
+    font-size: 3rem;
+  }
+  #about-us-hero-image{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:0;
+    margin:0;
+    }
+  #executive-board-title,
+  #declarations,
+  #cooperation-title {
+    font-size: 2rem;
+  }
+  
+  .team-info {
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+  }
+  .team-info .col{
+    margin:2rem 0 0 0;
+
+  }
+  .member-description {
+    padding:0 0 2rem 6rem;
+    display:flex;
+    justify-content:center;
+    height:5rem;
+
+  }
+
+  .member-name {
+    padding: 0 1rem 2rem 1rem;
+  }
+  #team-member-1,#team-member-3,#team-member-5{
+    display:flex;
+    flex-direction:column-reverse;
+    padding:0;
+
+  }
+#declaration-images{
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 768px) {
+  #about-us-title,
+  .member-name {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  #about-us-hero-text{
+        max-width:100%;
+        height:auto;
+        padding:0;
+        margin:3rem 0 0 0;
+    }
+
+  #executive-board-text,
+  .member-description {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  #executive-board-title,
+  #declarations,
+  #cooperation-title {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  #cooperation-text {
+    font-size: 1rem;
+  }
+
+  #about-us-hero-text {
+    width: 100%;
+    height: auto;
+  }
+
+  #team-member-img {
+    width: 100%;
+  }
+  .team-info{
+    padding:0;
+    max-width:80%;
+    align-items:center;
+    justify-content:center;
+  }
+  .member-description{
+    padding:0;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  #about-us-title,
+  .member-name {
+    font-size: 2rem;
+  }
+
+  #executive-board-title,
+  #declarations,
+  #cooperation-title {
+    font-size: 1.5rem;
+  }
+
+  .member-description {
+    font-size: 0.95rem;
+  }
+
+  #about-us-page {
+    margin: 2rem 1rem;
+  }
+}

@@ -1,0 +1,111 @@
+#videos-section{
+    padding:0 6.25rem 5rem 6.25rem;
+    max-width:91rem;
+    margin:0;
+}
+#title{
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+#card-row{
+    padding: 1rem 0 0.5rem 0;
+}
+#card-1,#card-2,#card-3{
+    width: 400px;
+    height: 457.74px;
+}
+#card-content-1,#card-content-2,#card-content-3{
+    width: 400px;
+    height: 457.74383544921875px;
+    border-radius: 7.88px;
+    background-image: linear-gradient(145.71deg, #008C95 3.03%, #5A2D7C 96.24%);
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+}
+img{
+    width: 384.2364501953125px;
+    height: 236.4532012939453px;
+    padding:1rem;
+    padding-bottom:.5rem;
+}
+#card-1-title,#card-2-title,#card-3-title{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31.53px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width: 24.014rem;
+    height: 4rem;
+    padding:0.5rem 1rem 0.5rem 1rem ;
+}
+#card-1-content,#card-2-content,#card-3-content{
+    width: 24.014rem;
+    height: 6.875rem;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    padding:0.5rem 1rem 0.5rem 1rem ;
+}
+#view-all-col{
+    display:"flex";
+    alignItems:"end";
+}
+#view-all{
+    width: 13rem;
+    height: 3rem;
+    margin:0;
+    display:"flex";
+    justifyContent:"end";
+}
+#view-all-text{
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display:flex;
+    align-items:center;
+    vertical-align: middle;
+    padding:0 1.5rem 0 0;
+    height: 1.875rem;
+
+}
+#img-col{
+    height:3rem;
+    padding:0 0 0 1.5rem;
+    display:flex;
+    justify-content:end;
+}
+#view-all-img{
+    width:3rem;
+    height:3rem;
+    padding:0;
+}
+@media screen and (max-width: 1024px){
+   #title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-width:100%;
+   }
+   #card-row{
+    display:flex;
+    justify-content:center !important;
+    align-items:center !important;
+    flex-direction:column;
+    max-width:100%;
+   }
+   #img-col{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   }
+}

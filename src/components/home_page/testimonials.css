@@ -1,0 +1,112 @@
+#testimonial-section{
+    margin:0 0 5rem 6.25rem;
+    max-width:78.5rem;
+    background-image:linear-gradient(92.87deg, #5A2D7C 2.39%, #008C95 98.91%);
+    justify-content:center;
+    align-items:center;
+    border-radius:1.5rem;
+    padding:2rem 0 2rem 0;
+}
+#testimonial-section-1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:5rem 0 0 0;
+}
+#from-community{
+    width:24rem;
+    height:13.75rem;
+    padding:0 0 0 4.75375rem;
+}
+#from-community-caption{
+    font-family: Unbounded;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+#people-saying{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+}
+#left-right-buttons{
+    align-items:center;
+}
+#left-arrow,#right-arrow{
+    font-size:2.25rem;
+    color: #FFFFFF;
+    font-weight:100;
+    padding:0 .5rem 0 .5rem;
+}
+#testimonial-section-2{
+    padding:5rem 0 0 0;
+}
+#testimonial-statements{
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    text-align:left;
+    width: 25rem;
+    height: 12.5rem;
+}
+#quotes{
+    font-size:2.3125rem;
+    color: #FFFFFF;
+}
+#statement{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+#user{
+    font-size:3.75rem;
+    color: #FFFFFF;
+}
+#kyle{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding:0 0 .5rem 0;
+}
+#advisor{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding:.5rem 0 .5rem 0;
+}
+@media screen and (max-width: 1024px){
+ #testimonial-section,#section-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    margin:0;
+ }
+ #testimonial-statements{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ }
+ #testimonial-section-2{
+    display:flex;
+    text-align:center;
+    width:50%;
+ }
+ #user-icon,#statement,#name{
+    text-align:center;
+ }
+}

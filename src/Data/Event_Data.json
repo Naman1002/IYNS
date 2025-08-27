@@ -1,0 +1,25 @@
+[
+  {
+  "id": "net-zero",
+  "timestamp": "2025-06-14T13:35:10.000Z",
+  "title": "INDIAN ATOMS TOWARDS THE NET ZERO COURSE.",
+  "heroImage": "https://drive.google.com/uc?id=18pzeCXVI92HQXFkIOi5i8BYstuiz5HE1",
+  "description": "Climate change stands as an unprecedented global challenge, casting long shadow over the future of our planet. As India stands at the crossroads of development and environmental stewardship, the imperative of nuclear energy becomes increasingly clear. ...",
+  "content": "Climate change stands as an unprecedented global challenge, casting long shadow over the future of our planet.",
+  "eventImages": [
+    "https://drive.google.com/uc?id=1HnyA0QthRQtbN5jYRRZZLA0YcF4Rx3NZ",
+    "https://drive.google.com/uc?id=1cDK4ezCy_6wkWHI3IWOzJQKYAdvYSYj8"
+  ]
+},
+{
+    "id": "youth-energy",
+    "timestamp": "2025-06-18T12:15:00.000Z",
+    "title": "YOUTH POWER IN ENERGY TRANSITION",
+    "heroImage": "https://drive.google.com/uc?id=1xyzEXAMPLE456",
+    "description": "India's youth will be pivotal in our shift toward sustainable energy...",
+    "eventImages": [
+      "https://drive.google.com/uc?id=2aEXAMPLE001",
+      "https://drive.google.com/uc?id=2aEXAMPLE002"
+    ]
+  }
+]

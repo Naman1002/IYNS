@@ -1,0 +1,14 @@
+#events-title{
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.card{
+    width: 398px;
+    height: 320px;
+    border-radius: 16.76px;
+    border-width: 0.8px;
+
+}

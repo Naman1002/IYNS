@@ -1,0 +1,85 @@
+#hero-section-container{
+    background-image:url("./nuclear_website_hero_section.png");
+    background-repeat:no-repeat;
+    background-size:120% 60rem;
+    padding:0 0 5rem 0;
+}
+#hero-section-content{
+    padding-top:44.6666666667rem;
+    padding-left:7.875rem;
+}
+#hero-section-title{
+    font-family:"Unbounded";
+    color: #FFFFFF;
+    width:35.3125rem;
+    font-size:3.75rem;
+    line-height:96%;
+    font-weight:400;
+    letter-spacing:0%;
+    padding:0;
+    margin:0;
+}
+#hero-section-text{
+    font-family:"Montserrat";
+    width:50%;
+    color:#FFFFFF;
+    font-size:1.25rem;
+    line-height:100%;
+    margin:0;
+}
+#feature-rows{
+    padding-top:1rem;
+    width:60.875rem;
+}
+#radio-lookalike{
+    width:13.33px;
+    height:13.33px;
+    border-radius:75%;
+    border:2px solid #FEF7FF;
+    padding:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.radio-lookalike-dot{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background-color: #FFFFFF;
+}
+.feature{
+    font-family:"Unbounded";
+    font-weight:400;
+    color: #FFFFFF;
+    line-height:96%;
+    font-size:16px;
+    padding:0;
+    padding-left:.5rem;
+}
+@media screen and (max-width: 1024px){
+    #hero-section-container{
+        max-width:100%;
+        height:auto;
+    }
+    #hero-section-content{
+        padding-top:536px;
+        padding-left:126px;
+    }
+    #hero-section-text{
+        margin: 2rem 0 0 0;
+        width:75%
+    }
+    #feature-rows{
+        margin:0;
+        width:90%;
+        padding: 2rem 0 0 0;
+    }
+    #feature-row-1{
+        margin:0 0 1rem 0;
+        
+    }
+    #feature-row-2{
+        margin:1rem 0 0 0
+    }
+
+}
