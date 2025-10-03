@@ -13,7 +13,6 @@
     padding-left:6.25rem;
 }
 #vision-img img,#mission-img img{
-    max-height:25rem;
     width:auto;
     object-fit: contain;
     padding:0 0 0 6rem ;

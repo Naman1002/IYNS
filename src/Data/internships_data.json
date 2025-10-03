@@ -1,0 +1,31 @@
+{
+  "cards": [
+    {
+      "title": "International",
+      "description": "IYNS, in collaboration with ITER, France, offers a unique three-week international internship for Indian school and college students...",
+      "conditionsTitle": "General conditions for the internship",
+      "conditionsDescription": "Curious about science, nuclear tech, and clean energy?",
+      "checklist": [
+        "Indian Citizen (with a valid Indian passport)",
+        "Students of Class 10–12 (CBSE, IB, or any equivalent board)",
+        "Permission from Your School",
+        "Consent from Your Parents"
+      ],
+      "note": "🚀 Get ready to learn, explore, and connect with scientists across the nation!",
+      "buttonText": "Register Now!"
+    },
+    {
+      "title": "National",
+      "description": "A 2-week program hosted in premier Indian research institutes...",
+      "conditionsTitle": "Eligibility",
+      "conditionsDescription": "Open to students curious about nuclear science and energy.",
+      "checklist": [
+        "Indian Citizen",
+        "Undergraduate or higher",
+        "Interest in nuclear/energy sector"
+      ],
+      "note": "🌟 Gain exposure to India's nuclear ecosystem!",
+      "buttonText": "Apply Now!"
+    }
+  ]
+}

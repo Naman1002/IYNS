@@ -8,9 +8,15 @@ body {
 }
 #about-us-hero-section{
     margin-bottom: 5rem;
+    display:flex;
+    flex-direction:row;
 }
-#about-us-title{
+#history-title,#about-us-title{
     background-image: linear-gradient(180deg, #5A2D7C 0%, #008C95 100%);
+    -webkit-background-clip: text; /* Safari/Chrome */
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;         /* Firefox */
+    color: transparent;            /* fallback */
     font-family: Unbounded;
     font-weight: 400;
     font-size: 3.75rem;
@@ -24,9 +30,24 @@ body {
       height: 8.5625rem;
 }
 #about-us-hero-text{
-    width:25rem;
+      display:flex;
+      flex-direction:column;
+      width:35%;
+}
+#hero-section-text{
+    width:30rem;
     height:28.125rem;
     padding:0;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1rem;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color:#2A2A2A;
+
 }
 
 #line-plus-circle{
@@ -53,13 +74,29 @@ body {
     background-color: #333842;
 }
 #about-us-hero-image{
+    border-radius: 16px;
+    padding:110px 0 0 0;
     width:51.25rem;
-    height:28.125rem;
 }
 #about-us-image{
     background-color: #EDEDED;
     width:51.25rem;
     height:28.125rem;
+}
+#history{
+  width:75%;
+  margin:0 0 6rem 0;
+}
+.history-text{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 1rem;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+
 }
 #executive-board{
     margin:0 0 5rem 0;
@@ -122,30 +159,41 @@ body {
     width:31.5625rem;
     height:19rem;
 }
-#team-member-img{
-    background-color: #27628A;
+#team-member-img-1,#team-member-img-2,#team-member-img-3,#team-member-img-4,#team-member-img-5{
     width:38.125rem;
     height:25rem;
+}
+#team-member-1,#team-member-4,#team-member-3,#team-member-4,#team-member-5{
+  display:flex;
+  flex-direction:row;
 }
 #declaration-section .col{
     margin: 0 0 5rem 0;
 }
-#declarations{
-    font-family: Unbounded;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 40px;
-    leading-trim: NONE;
-    line-height: 100%;
-    letter-spacing: 0%;
-    vertical-align: middle;
-    margin: 0 0 2.5rem 0;
+#team-member-img-1{
+  background-image:url("../../Data/Assets/images/president_iyns.png");
+   background-repeat:no-repeat;
+   background-size:cover;
 }
-#team-img{
-    margin: 0 0 .6rem 0;
+#team-member-img-2{
+  background-image:url("../../Data/Assets/images/vice_president_iyns.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
-#partnership-img{
-    margin: .6rem 0 0 0;
+#team-member-img-3{
+  background-image:url("../../Data/Assets/images/cofounder_iyns.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#team-member-img-4{
+  background-image:url("../../Data/Assets/images/policy_fellow_iyns.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#team-member-img-5{
+  background-image:url("../../Data/Assets/images/education_consultant_iyns.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 #cooperation-and-collaboration{
     margin:0 0 5rem 0;
@@ -166,23 +214,9 @@ body {
     letter-spacing: 0%;
     margin:2.5rem 0 2.5rem 0;
 }
-
-#declaration-images{
-     display: flex;
-    gap: 2rem;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-/* Images - responsive and full-width within their column */
-#declarations-img,
-#team-img,
-#partnership-img {
-  width: 100%;
-  height: auto;
-  min-width: 320px;
-  object-fit: cover;
-  margin-bottom: 1rem;
+.collaborators-img{
+  width: 68px;
+  height: 63px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -199,14 +233,13 @@ body {
         text-align:center;
     }
     #about-us-hero-section{
-        display:flex;
-        flex-direction:column-reverse;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
-        height:auto;
-        max-width:80%;
+      flex-direction: column-reverse;  /* overrides the row */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    max-width: 90%;  /* reduce width on smaller screens */
+    margin: 0 auto;  /* center horizontally */
     }
     #line-plus-circle{
         display:none;
@@ -216,6 +249,8 @@ body {
         height:auto;
         padding:0;
         margin:3rem 0 0 0;
+        display: flex;
+        align-items: center;
     }
     #executive-board-section{
         display:flex;
@@ -242,7 +277,14 @@ body {
   #cooperation-title {
     font-size: 2rem;
   }
-  
+  #cooperation-and-collaboration .row {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  flex-wrap: wrap;          /* allow wrapping on small screens */
+  gap: 1rem;                /* spacing between logos */
+}
+
   .team-info {
     flex-direction: column;
     align-items: center;
@@ -263,7 +305,7 @@ body {
   .member-name {
     padding: 0 1rem 2rem 1rem;
   }
-  #team-member-1,#team-member-3,#team-member-5{
+  #team-member-1,#team-member-4,#team-member-5{
     display:flex;
     flex-direction:column-reverse;
     padding:0;

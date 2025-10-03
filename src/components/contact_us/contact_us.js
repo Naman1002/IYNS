@@ -25,9 +25,7 @@ function ContactUs() {
         <div className="col">
           <h2 style={{ fontSize: "3rem" }}>Support Nuclear</h2>
           <p style={{ fontSize: "1.25rem", fontWeight: 500 }}>
-            Nuclear is ideal for dealing with climate change, because it is the
-            only carbon free, scalable energy source that’s available 24 hrs a
-            day
+            Nuclear Energy Program 2.0: Youth led, Industry Driven
           </p>
 
           {/* Phone */}
@@ -171,6 +169,9 @@ function ContactUs() {
           </div>
         </div>
       </div>
+      </div>
+      <div id = "map-parent">
+            <div id = "map"></div>
       </div>
       <Footer></Footer>
     </div>

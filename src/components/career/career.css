@@ -1,0 +1,67 @@
+.content-container{
+    margin:6rem 0 0 0;
+    padding:0 0 0 6.25rem;
+}
+#page_title{
+     background-image: linear-gradient(180deg, #5A2D7C 0%, #008C95 100%);
+    -webkit-background-clip: text; /* Safari/Chrome */
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;         /* Firefox */
+    color: transparent;            /* fallback */
+    font-family: Unbounded;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 60px;
+    leading-trim: NONE;
+    line-height: 96%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+#page_content{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.25rem;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width: 51.25rem;
+    height: 9rem;
+    angle: 0 deg;
+    opacity: 1;
+    padding:0 0 0 19.375rem;
+}
+#image_display{
+    height: 29.75rem;   
+}
+.iyns-career{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 25rem;
+    height: 28.125rem;
+    border-radius: 16px;
+    margin:0 1rem 0 0;
+
+}
+.what_we_offer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 25rem;
+    height: 28.125rem;
+}
+.what-we-offer p{
+    background-image: linear-gradient(180deg, #5A2D7C 0%, #008C95 100%);
+    color: rgba(242, 242, 242, 1);
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 200%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}

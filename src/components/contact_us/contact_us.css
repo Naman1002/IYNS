@@ -76,5 +76,20 @@ input{
     background: rgba(245, 245, 245, 1);
     border:0;
     color:rgba(186, 186, 186, 1);
-
+}
+#map-parent{ 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#map{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-image:url("../../Data/Assets/images/google_map.png");
+    width:77.5rem;                 
+    height: 28.125rem;                 
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import mission from "./Our Mission.png";
-import vision from "./Our Vision.png"
+import vision from "./vision.png"
 import "./vision_and_mission.css"
 
 function VisionMission() {
@@ -15,9 +15,11 @@ function VisionMission() {
                     Our Vision
                 </p>
                 <p id = "our-vision-text">
-                    To foster an informed, science-driven society in India where nuclear technologies are understood, 
-                    accepted, and responsibly deployed—empowering youth to actively participate in the 
-                    country's nuclear advancement and contribute meaningfully to a clean-energy future.
+                    To create a Nuclear self-sufficient India where clean, reliable, 
+                    and innovative nuclear energy powers sustainable development, 
+                    strengthens energy security, and leads our nation towards a carbon-free future — 
+                    by reshaping the Indian nuclear journey into 
+                    Indian Nuclear Programme 2.0 model that is Youth Led and Industry Driven.
                 </p>
             </div>
         </div>
@@ -27,9 +29,12 @@ function VisionMission() {
                     Our Mission
                 </p>
                 <p id = "our-mission-text">
-                    To spread awareness of nuclear science and its benefits among the general public, build capacity among youth through education, 
-                    advocacy,
-                    community engagement, and to cultivate ethical communication and policy discourse that supports India's nuclear goals.
+                     IYNS Research Foundation strives to empower youth through education and capacity building, 
+                     advocate for nuclear energy in policy and society, 
+                     and drive innovation in fission as well as the fusion sector. 
+                     We are dedicated to global collaboration and inclusive participation, 
+                     ensuring that young professionals and women play a vital role in shaping the future of nuclear 
+                     science and technology
                 </p>
             </div>
             <div className = "col" id = "mission-img">

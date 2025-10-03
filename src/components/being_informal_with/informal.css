@@ -1,0 +1,87 @@
+.content-container{
+    margin:6rem 0 0 0;
+    padding:0 0 0 6.25rem;
+}
+#page_title{
+     background-image: linear-gradient(180deg, #5A2D7C 0%, #008C95 100%);
+    -webkit-background-clip: text; /* Safari/Chrome */
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;         /* Firefox */
+    color: transparent;            /* fallback */
+    font-family: Unbounded;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 60px;
+    leading-trim: NONE;
+    line-height: 96%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+#page_content{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.25rem;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width: 51.25rem;
+    height: 9rem;
+    angle: 0 deg;
+    opacity: 1;
+    padding:0 0 0 19.375rem;
+}
+#event-host{
+    font-family: Unbounded;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 2.5rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.host-section{
+    display:flex;
+    align-items:start;
+    justify-content:start;
+    width:610px !important;
+    height:390px !important;
+    border: 1.5px solid transparent; /* fallback */
+    border-image: linear-gradient(145.71deg, #008C95 3.03%, #5A2D7C 96.24%);
+    border-image-slice: 1;
+    margin:0 .625rem 0 .625rem;
+}
+
+#host1,#host2,.host-image{
+    width: 18.375rem;
+    height: 18.375rem;
+    border-radius: 4px;
+    object-fit:cover;
+    padding:0;
+}
+.host-name{
+    font-family: Unbounded;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin:0;
+}
+.host_position{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin:0;
+}
+#host-1-intro,#host-2-intro{
+    width:17rem;
+    height:22.625rem;
+}

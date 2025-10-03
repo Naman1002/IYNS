@@ -1,14 +1,118 @@
-#events-title{
+#events-section{
+    width:100%;
+    max-width:77.5rem;
+    margin-bottom:6rem;
+    paddding:0;
+}
+.event-title{
     font-family: Unbounded;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 100%;
     letter-spacing: 0%;
+    color:#FFFFFF;
 }
-.card{
-    width: 398px;
-    height: 320px;
+#card{
+    width:100%;
+    max-width:51.25rem;
+    min-width: 18.75rem; 
+    max-height:25rem;
     border-radius: 16.76px;
     border-width: 0.8px;
-
+}
+#event-left-side{
+    display:flex;
+    background-image: url("../../Data/Assets/images/nuclear_events.png");
+    background-color:#000B1F4D;
+    background-repeat:no-repeat;
+     background-blend-mode: darken;
+    width:25rem;
+    height:25rem;
+}
+#overlay-text{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 2.375rem;
+    leading-trim: NONE;
+    line-height: 26px;
+    letter-spacing: 0%;
+    padding:17.6875rem 0 0 .25rem;
+    color:#FFFFFF;
+}
+#event-card-text{
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: 0%;
+vertical-align: middle;
+color:#FFFFFF
+}
+#event-right-side{
+    background:linear-gradient(145.71deg, #008C95 3.03%, #5A2D7C 96.24%);
+    width:26.25rem;
+    height:25rem;
+    padding:1rem 1rem 1rem 2rem;
+}
+#row-1{
+    display: flex; 
+    flexWrap: wrap;
+    gap: 1rem;
+}
+#right-side-title{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 32px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+#event-card-text{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.25rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-top:1rem;
+}
+#second-event{
+    width: 24.875rem;
+    height: 20rem;
+    border-radius: 16.76px;
+    border-width: 0.8px;
+    background-color: #FFB830;
+    padding:1rem;
+}
+@media screen and (max-width: 1024px){
+    #events-section{
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:6rem;
+    max-width:50%;
+    }
+    #card{
+        display:flex;
+        flex: 0 0 auto;    
+        flex-direction:column;
+        margin:1rem;
+        padding:2rem;
+        max-height: none;   /* overrides max-height:25rem */
+    }
+     #event-left-side,
+  #event-right-side {
+    width: 100% !important;   /* force full width */
+    height: auto;             /* let height adjust naturally */
+  }
 }

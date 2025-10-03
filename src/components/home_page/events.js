@@ -1,12 +1,12 @@
-// src/components/EventPage.jsx
 import React from 'react';
+import eventData from "../../Data/Event_Data.json";
 
-const EventPage = ({ event }) => {
+const EventPage = () => {
+  const event = eventData;  // Use JSON directly
   return (
     <div className="event-container">
       <h1>{event.title}</h1>
       <img src={event.heroImage} alt="Hero" style={{ width: '100%' }} />
-      <h1>{event.title}</h1>
       <p>{event.description}</p>
       <div className="event-gallery">
         {event.eventImages.map((imgUrl, index) => (
